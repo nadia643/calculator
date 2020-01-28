@@ -59,20 +59,20 @@ button {
 
 .output {
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: white;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
     padding: 10px;
     word-wrap: break-word;
     word-break: break-all;
-    font: white;
+    color: black;
 }
 .output .previous-operand {
-    color: rgba(255, 255, 255, .75);
+    color: red;
     font-size: 1.5rem;
 }
 .output .current-operand {
-    color: white;
+    color: red;
     font-size: 2.5rem;
 }
