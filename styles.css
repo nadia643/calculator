@@ -9,20 +9,16 @@ body {
     background: black;
 }
 .number {
-    border-radius: 50%;
     background-color: #808080;
 }
 .del {
-    border-radius: 50%;
     background-color: white;
 }
 .operator-button {
     background-color: #ffa64d;
     
 }
-button {
-    border-radius: 90px;
-}
+
 .calculator-grid {
     display: grid;
     justify-content: center;
