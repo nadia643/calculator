@@ -1,22 +1,50 @@
 /* This sets the margin and padding of every HTML element to zero and 
 the box-sizing: border-box; declaration changes the box model by ensuring 
 that the padding and border of an element no longer increases its width. */
-
 html {
     font-size: 62.5%;
     box-sizing: border-box;
   }
   
-  *, *::before, *::after {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
   }
 
-  .calculator-grid {
-      top: 50%;
-      left: 50%;
-      position: absolute;
-      transform: translate(-50%, -50%);
-      width: 400px;
+h1 {
+    color: #53900F
+}
+
+.calculator-grid {
+      position: relative;
+      /* top: 50%;
+      left: 50%; */
+      width: 560px;
+      margin: 300px auto;
   }
+
+.calculator-screen {
+      width: 100%;
+      font-size: 5rem;
+      height: 80px;
+      text-align: right;
+      background-color: #D6CE15;
+  }
+
+.number {
+    color: #53900F;
+    width: 137px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+
+.operator {
+    color: #53900F;
+    width: 137px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 4rem;
+  } 
+  
