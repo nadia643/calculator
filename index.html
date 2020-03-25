@@ -9,30 +9,31 @@
     <script src="app.js" defer> </script>
 </head>
 <body>
-        <div class="calculator-grid">
-                <div class="output"> 123
-                <div data-previous-operand class="previous-operand"></div>
-                <div data-current-operand class="current-operand"></div>
-                </div>
-                <button data-all-clear class="span-two">AC</button>
-                <button data-delete class="del">DEL</button>
-                <button data-operator class="operator-button">/</button>
-                <button data-number class="number">1</button>
-                <button data-number class="number">2</button>
-                <button data-number class="number">3</button>
-                <button data-operator class="operator-button">*</button>
-                <button data-number class="number">4</button>
-                <button data-number class="number">5</button>
-                <button data-number class="number">6</button>
-                <button data-operator class="operator-button">+</button>
-                <button data-number class="number">7</button>
-                <button data-number class="number">8</button>
-                <button data-number class="number">9</button>
-                <button data-operator class="operator-button">-</button>
-                <button data-number class="number">.</button>
-                <button data-number class="number">0</button>
-                <button data-equals class="span-two">=</button>
-            </div>
+
+    <div class="calculator-grid">
+        <input type="text" id="input" />
+        <button className="number">1</button>
+        <button className="number">2</button>
+        <button className="number">3</button>
+        <button className="number">4</button>
+        <button className="number">5</button>
+        <button className="number">6</button>
+        <button className="number">7</button>
+        <button className="number">8</button>
+        <button className="number">9</button>
+
+        <button className="operator">+</button>
+        <button className="operator">-</button>
+        <button className="operator">*</button>
+        <button className="operator">/</button>
+
+        <button className="operator">CE</button>
+        <button className="operator">=</button>
+        <button className="operator">DEL</button>
+
+
+
+    </div>
     
 </body>
 </html>
