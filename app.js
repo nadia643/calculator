@@ -1,51 +1,23 @@
-// class Calculator {
-//     constructor(previousOperandTextElement, currentOperandTextElement) {
-//     this.previousOperandTextElement = previousOperandTextElement
-//     this.currentOperandTextElement = currentOperandTextElement;
-// }
-// clear() {
-//     this.currentOperand = ''
-//     this.previousOperand = ''
-//     this.operation = undefined
+//print number to calculator screen
+function numberToScreen(value) {
+    current = document.getElementById("input").value;
+    current = current + value;
+    document.getElementById("input").value = current;
+}
 
-// }
+//clear calculator screen
+function clearScreen() {
+    document.getElementById("input").value = '';
+}
 
-// delete() {
-
-// }
-// appendNumber(number) {
-//     this.currentOperand = this.currentOperand.toString() + number.toString();
-
-// }
-// chooseOperation(operation) {
-
-// }
-// compute() {
-
-// }
-// updateDisplay() {
-//     this.currentOperandTextElement.innerText = this.currentOperand;
-// }
-// }
-
-// const numberButton = document.querySelectorAll('[data-number]')
-// const operatorButton = document.querySelectorAll('[data-operator]')
-// const equalsButton = document.querySelector('[data-equals]')
-// const deleteButton = document.querySelector('[data-delete]')
-// const allclearButton = document.querySelector('[data-all-clear]')
-// const previousOperandTextElement = document.querySelector('[data-previous-operand]')
-// const currentOperandTextElement = document.querySelector('[data-current-operand]')
+//reset calculator screen on refresh
+window.onload =  clearScreen();
 
 
-// const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement) 
+function calculate() {
+    const values = document.getElementsByClassName("number.").parseInt(value);
+    const ans = values + values;
+    console.log(ans);
+}
 
-// numberButton.forEach(button => {
-//     button.addEventListener('click', () => {
-//         calculator.appendNumber(button.innerText)
-//         calculator.updateDisplay()
-//     })
-// })
-
-function myFunction() {
-    document.getElementById("output").innerHTML = "1";
-  }
+    
