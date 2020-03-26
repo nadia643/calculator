@@ -13,11 +13,11 @@
     <div class="calculator-grid">
         <input type="text" placeholder="0" class="calculator-screen" 
         id="input" multiple="multiple" readonly="readonly"/>
-
+    <div class="calculator-keys">
         <button class="number" onClick="numberToScreen(value)" value="1">1</button>
         <button class="number" onClick="numberToScreen(value)" value="2">2</button>
         <button class="number" onClick="numberToScreen(value)" value="3">3</button>
-        <button class="operator" value="+">+</button>
+        <button class="operator" onClick=addIt() value="+">+</button>
         <button class="number" onClick="numberToScreen(value)" value="4">4</button>
         <button class="number" onClick="numberToScreen(value)" value="5">5</button>
         <button class="number" onClick="numberToScreen(value)" value="6">6</button>
@@ -30,7 +30,7 @@
         <button class="operator" onClick="deleteNumber()">DEL</button>
         <button class="operator" onClick="calculate(value)">=</button>
         <button class="operator" value="/">/</button>
-
+    </div>
     </div>
     
 </body>
